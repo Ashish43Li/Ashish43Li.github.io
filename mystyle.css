@@ -1,0 +1,147 @@
+body{
+	margin-top: -.5px;
+	margin-left: -.6px;
+	height:100%;
+	background-image:url(background.jpg);
+	
+	
+}
+
+.mainbar{
+	background-color:rgb(140,0,0)  ;
+	color:white;
+	height:20px;
+	width:100%;
+	border:1px solid black;
+	margin-left: 0px;
+	margin-top: 0px;
+	top:0px;
+	position:fixed;
+	padding:1px;
+}
+
+.tabs{
+	background-color:rgb(140,0,0) ;
+	height:30px;
+	width:100%;
+	position:fixed;
+	
+	top:20px;
+	border:1px solid black;
+
+}
+
+a{
+	color:white;
+	text-decoration: none;
+	text-align: center;
+}
+
+a:hover{
+	box-shadow: 0px 0px 150px black;
+	z-index:2;
+	background-color:red;
+	transition:all .2s ease-in;
+	transform:scale(1.2);
+	color:white;
+}
+
+.home{
+	background-color:rgb(255,168,125); color:black;
+	background-color: ;
+	height:30px;
+	width:25%;
+	position:fixed;
+	margin-left:0px;
+	border-bottom-right-radius: 25px;
+	border-top-right-radius: 25px; 
+}
+
+.aca{
+	background-color: ;
+	height:30px;
+	width:25%;
+	position:fixed;
+	margin-left:25%;
+	border-radius: 25px; 
+}
+
+.int{
+	background-color: ;
+	height:30px;
+	width:25%;
+	position:fixed;
+	margin-left:50%;
+	border-radius: 25px;
+}
+
+
+.con{
+	background-color: ;
+	height:30px;
+	width:25%;
+	position:fixed;
+	margin-left:75%;
+	border-bottom-left-radius: 25px;
+	border-top-left-radius: 25px; 
+
+}
+
+.box{
+	background-color: rgb(255,168,125);
+	width:100%;
+	top:250px;
+	border:1px solid black;
+	padding-top:90px;
+	position:absolute;
+	text-align: center;
+}
+
+.container{
+	position:relative;
+	max-width:200px;
+	max-height:240px;
+	margin:auto;
+}
+
+.image{
+	display: block;
+	width:200px;
+	height:240px;
+	top:100px;
+	margin: auto;
+	position: relative ;
+	border:2px solid black;
+}
+
+
+.overlay{
+	position:absolute;
+	top:280px;
+	bottom:0;
+	left:0;
+	right:0;
+	width:202px;
+	height:60px;
+	opacity:0;
+	transition:.5s ease;
+	background-color: black;
+	border:1px solid black;
+}
+
+
+
+
+.container:hover .overlay{
+	opacity:.6;
+}
+
+.text{
+	color:white;
+	font-size:15px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%, 50%);
+}
